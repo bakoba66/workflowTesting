@@ -11,7 +11,7 @@ import XCTest
 class ViewControllerTests: XCTestCase {
 
     override func setUpWithError() throws {
-        // Put setup code here. This method is called before the invocation of each test method in the class.
+        // Put setup code here. This method  is called before the invocation of each test method in the class.
     }
 
     override func tearDownWithError() throws {
@@ -25,7 +25,7 @@ class ViewControllerTests: XCTestCase {
 
     func test_string() {
         let string = "test"
-        XCTAssertEqual(string, "test")
+        XCTAssertEqual(string, "test333")
     }
 
     func test_bool() {
