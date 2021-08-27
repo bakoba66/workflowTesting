@@ -9,6 +9,29 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>bakoWorkflowTests.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>2EDA8E5226D917C50089AC15</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>2EDA8E6826D917C70089AC15</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>2EDA8E7326D917C70089AC15</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 	</dict>
 </dict>
 </plist>

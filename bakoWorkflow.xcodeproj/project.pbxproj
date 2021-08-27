@@ -14,19 +14,11 @@
 		2EDA8E6026D917C60089AC15 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2EDA8E5F26D917C60089AC15 /* Assets.xcassets */; };
 		2EDA8E6326D917C60089AC15 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2EDA8E6126D917C60089AC15 /* LaunchScreen.storyboard */; };
 		2EDA8E6E26D917C70089AC15 /* bakoWorkflowTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EDA8E6D26D917C70089AC15 /* bakoWorkflowTests.swift */; };
-		2EDA8E7926D917C70089AC15 /* bakoWorkflowUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EDA8E7826D917C70089AC15 /* bakoWorkflowUITests.swift */; };
 		2EDA8E8726D917ED0089AC15 /* ViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EDA8E8626D917ED0089AC15 /* ViewControllerTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		2EDA8E6A26D917C70089AC15 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 2EDA8E4B26D917C50089AC15 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 2EDA8E5226D917C50089AC15;
-			remoteInfo = bakoWorkflow;
-		};
-		2EDA8E7526D917C70089AC15 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 2EDA8E4B26D917C50089AC15 /* Project object */;
 			proxyType = 1;
@@ -47,9 +39,6 @@
 		2EDA8E6926D917C70089AC15 /* bakoWorkflowTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = bakoWorkflowTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2EDA8E6D26D917C70089AC15 /* bakoWorkflowTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bakoWorkflowTests.swift; sourceTree = "<group>"; };
 		2EDA8E6F26D917C70089AC15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2EDA8E7426D917C70089AC15 /* bakoWorkflowUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = bakoWorkflowUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		2EDA8E7826D917C70089AC15 /* bakoWorkflowUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bakoWorkflowUITests.swift; sourceTree = "<group>"; };
-		2EDA8E7A26D917C70089AC15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2EDA8E8626D917ED0089AC15 /* ViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -68,13 +57,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2EDA8E7126D917C70089AC15 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -83,7 +65,6 @@
 			children = (
 				2EDA8E5526D917C50089AC15 /* bakoWorkflow */,
 				2EDA8E6C26D917C70089AC15 /* bakoWorkflowTests */,
-				2EDA8E7726D917C70089AC15 /* bakoWorkflowUITests */,
 				2EDA8E5426D917C50089AC15 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -93,7 +74,6 @@
 			children = (
 				2EDA8E5326D917C50089AC15 /* bakoWorkflow.app */,
 				2EDA8E6926D917C70089AC15 /* bakoWorkflowTests.xctest */,
-				2EDA8E7426D917C70089AC15 /* bakoWorkflowUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -120,15 +100,6 @@
 				2EDA8E8626D917ED0089AC15 /* ViewControllerTests.swift */,
 			);
 			path = bakoWorkflowTests;
-			sourceTree = "<group>";
-		};
-		2EDA8E7726D917C70089AC15 /* bakoWorkflowUITests */ = {
-			isa = PBXGroup;
-			children = (
-				2EDA8E7826D917C70089AC15 /* bakoWorkflowUITests.swift */,
-				2EDA8E7A26D917C70089AC15 /* Info.plist */,
-			);
-			path = bakoWorkflowUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -169,24 +140,6 @@
 			productReference = 2EDA8E6926D917C70089AC15 /* bakoWorkflowTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		2EDA8E7326D917C70089AC15 /* bakoWorkflowUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 2EDA8E8326D917C70089AC15 /* Build configuration list for PBXNativeTarget "bakoWorkflowUITests" */;
-			buildPhases = (
-				2EDA8E7026D917C70089AC15 /* Sources */,
-				2EDA8E7126D917C70089AC15 /* Frameworks */,
-				2EDA8E7226D917C70089AC15 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				2EDA8E7626D917C70089AC15 /* PBXTargetDependency */,
-			);
-			name = bakoWorkflowUITests;
-			productName = bakoWorkflowUITests;
-			productReference = 2EDA8E7426D917C70089AC15 /* bakoWorkflowUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -200,10 +153,6 @@
 						CreatedOnToolsVersion = 12.5.1;
 					};
 					2EDA8E6826D917C70089AC15 = {
-						CreatedOnToolsVersion = 12.5.1;
-						TestTargetID = 2EDA8E5226D917C50089AC15;
-					};
-					2EDA8E7326D917C70089AC15 = {
 						CreatedOnToolsVersion = 12.5.1;
 						TestTargetID = 2EDA8E5226D917C50089AC15;
 					};
@@ -224,7 +173,6 @@
 			targets = (
 				2EDA8E5226D917C50089AC15 /* bakoWorkflow */,
 				2EDA8E6826D917C70089AC15 /* bakoWorkflowTests */,
-				2EDA8E7326D917C70089AC15 /* bakoWorkflowUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -241,13 +189,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		2EDA8E6726D917C70089AC15 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2EDA8E7226D917C70089AC15 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -276,14 +217,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2EDA8E7026D917C70089AC15 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2EDA8E7926D917C70089AC15 /* bakoWorkflowUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -291,11 +224,6 @@
 			isa = PBXTargetDependency;
 			target = 2EDA8E5226D917C50089AC15 /* bakoWorkflow */;
 			targetProxy = 2EDA8E6A26D917C70089AC15 /* PBXContainerItemProxy */;
-		};
-		2EDA8E7626D917C70089AC15 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 2EDA8E5226D917C50089AC15 /* bakoWorkflow */;
-			targetProxy = 2EDA8E7526D917C70089AC15 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -517,46 +445,6 @@
 			};
 			name = Release;
 		};
-		2EDA8E8426D917C70089AC15 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = TLZ85JNF83;
-				INFOPLIST_FILE = bakoWorkflowUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = id.bakoWorkflowUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = bakoWorkflow;
-			};
-			name = Debug;
-		};
-		2EDA8E8526D917C70089AC15 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = TLZ85JNF83;
-				INFOPLIST_FILE = bakoWorkflowUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = id.bakoWorkflowUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = bakoWorkflow;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -583,15 +471,6 @@
 			buildConfigurations = (
 				2EDA8E8126D917C70089AC15 /* Debug */,
 				2EDA8E8226D917C70089AC15 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		2EDA8E8326D917C70089AC15 /* Build configuration list for PBXNativeTarget "bakoWorkflowUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				2EDA8E8426D917C70089AC15 /* Debug */,
-				2EDA8E8526D917C70089AC15 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
