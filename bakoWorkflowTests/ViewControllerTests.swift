@@ -25,7 +25,7 @@ class ViewControllerTests: XCTestCase {
 
     func test_string() {
         let string = "test"
-        XCTAssertEqual(string, "test222")
+        XCTAssertEqual(string, "test22244")
     }
 
     func test_bool() {
