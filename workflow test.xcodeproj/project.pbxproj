@@ -15,6 +15,7 @@
 		2EDA8E2526D90AA70089AC15 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2EDA8E2326D90AA70089AC15 /* LaunchScreen.storyboard */; };
 		2EDA8E3026D90AA70089AC15 /* workflow_testTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EDA8E2F26D90AA70089AC15 /* workflow_testTests.swift */; };
 		2EDA8E3B26D90AA80089AC15 /* workflow_testUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EDA8E3A26D90AA80089AC15 /* workflow_testUITests.swift */; };
+		2EDA8E4926D90AC80089AC15 /* ViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EDA8E4826D90AC80089AC15 /* ViewControllerTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		2EDA8E3626D90AA80089AC15 /* workflow testUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "workflow testUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2EDA8E3A26D90AA80089AC15 /* workflow_testUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = workflow_testUITests.swift; sourceTree = "<group>"; };
 		2EDA8E3C26D90AA80089AC15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2EDA8E4826D90AC80089AC15 /* ViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +117,7 @@
 			children = (
 				2EDA8E2F26D90AA70089AC15 /* workflow_testTests.swift */,
 				2EDA8E3126D90AA70089AC15 /* Info.plist */,
+				2EDA8E4826D90AC80089AC15 /* ViewControllerTests.swift */,
 			);
 			path = "workflow testTests";
 			sourceTree = "<group>";
@@ -268,6 +271,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2EDA8E4926D90AC80089AC15 /* ViewControllerTests.swift in Sources */,
 				2EDA8E3026D90AA70089AC15 /* workflow_testTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

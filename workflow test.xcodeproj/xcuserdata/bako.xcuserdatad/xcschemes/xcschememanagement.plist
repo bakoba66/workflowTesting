@@ -9,6 +9,29 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>workflow testTests.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>2EDA8E1426D90AA60089AC15</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>2EDA8E2A26D90AA70089AC15</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>2EDA8E3526D90AA80089AC15</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 	</dict>
 </dict>
 </plist>
