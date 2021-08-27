@@ -20,4 +20,4 @@ jobs:
           ruby-version: 2.4.0
           bundler-cache: true
       - name: Test - Fastlane tests
-        run: bundle exec fastlane test
+        run: fastlane test
