@@ -15,7 +15,7 @@ jobs:
         run: echo "hello"
       - name: run tests
         run: |
-          xcodebuild test \
+          set -o pipefail xcodebuild test \
           -project bakoWorkflow.xcodeproj \
           -scheme bakoWorkflow \
           -destination 'platform=iOS Simulator,name=iPhone 12 Pro Max,OS=14.5'
