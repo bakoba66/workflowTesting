@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2EDA8E5726D917C50089AC15 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EDA8E5626D917C50089AC15 /* AppDelegate.swift */; };
+		2EDA8E5926D917C50089AC15 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EDA8E5826D917C50089AC15 /* SceneDelegate.swift */; };
+		2EDA8E5B26D917C50089AC15 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EDA8E5A26D917C50089AC15 /* ViewController.swift */; };
+		2EDA8E5E26D917C50089AC15 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2EDA8E5C26D917C50089AC15 /* Main.storyboard */; };
+		2EDA8E6026D917C60089AC15 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2EDA8E5F26D917C60089AC15 /* Assets.xcassets */; };
+		2EDA8E6326D917C60089AC15 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2EDA8E6126D917C60089AC15 /* LaunchScreen.storyboard */; };
+		2EDA8E6E26D917C70089AC15 /* bakoWorkflowTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EDA8E6D26D917C70089AC15 /* bakoWorkflowTests.swift */; };
+		2EDA8E7926D917C70089AC15 /* bakoWorkflowUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EDA8E7826D917C70089AC15 /* bakoWorkflowUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2EDA8E6A26D917C70089AC15 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2EDA8E4B26D917C50089AC15 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2EDA8E5226D917C50089AC15;
+			remoteInfo = bakoWorkflow;
+		};
+		2EDA8E7526D917C70089AC15 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2EDA8E4B26D917C50089AC15 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2EDA8E5226D917C50089AC15;
+			remoteInfo = bakoWorkflow;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2EDA8E5326D917C50089AC15 /* bakoWorkflow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bakoWorkflow.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2EDA8E5626D917C50089AC15 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2EDA8E5826D917C50089AC15 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		2EDA8E5A26D917C50089AC15 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2EDA8E5D26D917C50089AC15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2EDA8E5F26D917C60089AC15 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2EDA8E6226D917C60089AC15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2EDA8E6426D917C60089AC15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2EDA8E6926D917C70089AC15 /* bakoWorkflowTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = bakoWorkflowTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2EDA8E6D26D917C70089AC15 /* bakoWorkflowTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bakoWorkflowTests.swift; sourceTree = "<group>"; };
+		2EDA8E6F26D917C70089AC15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2EDA8E7426D917C70089AC15 /* bakoWorkflowUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = bakoWorkflowUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2EDA8E7826D917C70089AC15 /* bakoWorkflowUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bakoWorkflowUITests.swift; sourceTree = "<group>"; };
+		2EDA8E7A26D917C70089AC15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2EDA8E5026D917C50089AC15 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2EDA8E6626D917C70089AC15 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2EDA8E7126D917C70089AC15 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2EDA8E4A26D917C50089AC15 = {
+			isa = PBXGroup;
+			children = (
+				2EDA8E5526D917C50089AC15 /* bakoWorkflow */,
+				2EDA8E6C26D917C70089AC15 /* bakoWorkflowTests */,
+				2EDA8E7726D917C70089AC15 /* bakoWorkflowUITests */,
+				2EDA8E5426D917C50089AC15 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2EDA8E5426D917C50089AC15 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2EDA8E5326D917C50089AC15 /* bakoWorkflow.app */,
+				2EDA8E6926D917C70089AC15 /* bakoWorkflowTests.xctest */,
+				2EDA8E7426D917C70089AC15 /* bakoWorkflowUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2EDA8E5526D917C50089AC15 /* bakoWorkflow */ = {
+			isa = PBXGroup;
+			children = (
+				2EDA8E5626D917C50089AC15 /* AppDelegate.swift */,
+				2EDA8E5826D917C50089AC15 /* SceneDelegate.swift */,
+				2EDA8E5A26D917C50089AC15 /* ViewController.swift */,
+				2EDA8E5C26D917C50089AC15 /* Main.storyboard */,
+				2EDA8E5F26D917C60089AC15 /* Assets.xcassets */,
+				2EDA8E6126D917C60089AC15 /* LaunchScreen.storyboard */,
+				2EDA8E6426D917C60089AC15 /* Info.plist */,
+			);
+			path = bakoWorkflow;
+			sourceTree = "<group>";
+		};
+		2EDA8E6C26D917C70089AC15 /* bakoWorkflowTests */ = {
+			isa = PBXGroup;
+			children = (
+				2EDA8E6D26D917C70089AC15 /* bakoWorkflowTests.swift */,
+				2EDA8E6F26D917C70089AC15 /* Info.plist */,
+			);
+			path = bakoWorkflowTests;
+			sourceTree = "<group>";
+		};
+		2EDA8E7726D917C70089AC15 /* bakoWorkflowUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2EDA8E7826D917C70089AC15 /* bakoWorkflowUITests.swift */,
+				2EDA8E7A26D917C70089AC15 /* Info.plist */,
+			);
+			path = bakoWorkflowUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2EDA8E5226D917C50089AC15 /* bakoWorkflow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2EDA8E7D26D917C70089AC15 /* Build configuration list for PBXNativeTarget "bakoWorkflow" */;
+			buildPhases = (
+				2EDA8E4F26D917C50089AC15 /* Sources */,
+				2EDA8E5026D917C50089AC15 /* Frameworks */,
+				2EDA8E5126D917C50089AC15 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = bakoWorkflow;
+			productName = bakoWorkflow;
+			productReference = 2EDA8E5326D917C50089AC15 /* bakoWorkflow.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2EDA8E6826D917C70089AC15 /* bakoWorkflowTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2EDA8E8026D917C70089AC15 /* Build configuration list for PBXNativeTarget "bakoWorkflowTests" */;
+			buildPhases = (
+				2EDA8E6526D917C70089AC15 /* Sources */,
+				2EDA8E6626D917C70089AC15 /* Frameworks */,
+				2EDA8E6726D917C70089AC15 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2EDA8E6B26D917C70089AC15 /* PBXTargetDependency */,
+			);
+			name = bakoWorkflowTests;
+			productName = bakoWorkflowTests;
+			productReference = 2EDA8E6926D917C70089AC15 /* bakoWorkflowTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2EDA8E7326D917C70089AC15 /* bakoWorkflowUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2EDA8E8326D917C70089AC15 /* Build configuration list for PBXNativeTarget "bakoWorkflowUITests" */;
+			buildPhases = (
+				2EDA8E7026D917C70089AC15 /* Sources */,
+				2EDA8E7126D917C70089AC15 /* Frameworks */,
+				2EDA8E7226D917C70089AC15 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2EDA8E7626D917C70089AC15 /* PBXTargetDependency */,
+			);
+			name = bakoWorkflowUITests;
+			productName = bakoWorkflowUITests;
+			productReference = 2EDA8E7426D917C70089AC15 /* bakoWorkflowUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2EDA8E4B26D917C50089AC15 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					2EDA8E5226D917C50089AC15 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					2EDA8E6826D917C70089AC15 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 2EDA8E5226D917C50089AC15;
+					};
+					2EDA8E7326D917C70089AC15 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 2EDA8E5226D917C50089AC15;
+					};
+				};
+			};
+			buildConfigurationList = 2EDA8E4E26D917C50089AC15 /* Build configuration list for PBXProject "bakoWorkflow" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2EDA8E4A26D917C50089AC15;
+			productRefGroup = 2EDA8E5426D917C50089AC15 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2EDA8E5226D917C50089AC15 /* bakoWorkflow */,
+				2EDA8E6826D917C70089AC15 /* bakoWorkflowTests */,
+				2EDA8E7326D917C70089AC15 /* bakoWorkflowUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2EDA8E5126D917C50089AC15 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EDA8E6326D917C60089AC15 /* LaunchScreen.storyboard in Resources */,
+				2EDA8E6026D917C60089AC15 /* Assets.xcassets in Resources */,
+				2EDA8E5E26D917C50089AC15 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2EDA8E6726D917C70089AC15 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2EDA8E7226D917C70089AC15 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2EDA8E4F26D917C50089AC15 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EDA8E5B26D917C50089AC15 /* ViewController.swift in Sources */,
+				2EDA8E5726D917C50089AC15 /* AppDelegate.swift in Sources */,
+				2EDA8E5926D917C50089AC15 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2EDA8E6526D917C70089AC15 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EDA8E6E26D917C70089AC15 /* bakoWorkflowTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2EDA8E7026D917C70089AC15 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EDA8E7926D917C70089AC15 /* bakoWorkflowUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2EDA8E6B26D917C70089AC15 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2EDA8E5226D917C50089AC15 /* bakoWorkflow */;
+			targetProxy = 2EDA8E6A26D917C70089AC15 /* PBXContainerItemProxy */;
+		};
+		2EDA8E7626D917C70089AC15 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2EDA8E5226D917C50089AC15 /* bakoWorkflow */;
+			targetProxy = 2EDA8E7526D917C70089AC15 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2EDA8E5C26D917C50089AC15 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2EDA8E5D26D917C50089AC15 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2EDA8E6126D917C60089AC15 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2EDA8E6226D917C60089AC15 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2EDA8E7B26D917C70089AC15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2EDA8E7C26D917C70089AC15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2EDA8E7E26D917C70089AC15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TLZ85JNF83;
+				INFOPLIST_FILE = bakoWorkflow/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = id.bakoWorkflow;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2EDA8E7F26D917C70089AC15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TLZ85JNF83;
+				INFOPLIST_FILE = bakoWorkflow/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = id.bakoWorkflow;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2EDA8E8126D917C70089AC15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TLZ85JNF83;
+				INFOPLIST_FILE = bakoWorkflowTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = id.bakoWorkflowTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/bakoWorkflow.app/bakoWorkflow";
+			};
+			name = Debug;
+		};
+		2EDA8E8226D917C70089AC15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TLZ85JNF83;
+				INFOPLIST_FILE = bakoWorkflowTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = id.bakoWorkflowTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/bakoWorkflow.app/bakoWorkflow";
+			};
+			name = Release;
+		};
+		2EDA8E8426D917C70089AC15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TLZ85JNF83;
+				INFOPLIST_FILE = bakoWorkflowUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = id.bakoWorkflowUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = bakoWorkflow;
+			};
+			name = Debug;
+		};
+		2EDA8E8526D917C70089AC15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TLZ85JNF83;
+				INFOPLIST_FILE = bakoWorkflowUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = id.bakoWorkflowUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = bakoWorkflow;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2EDA8E4E26D917C50089AC15 /* Build configuration list for PBXProject "bakoWorkflow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2EDA8E7B26D917C70089AC15 /* Debug */,
+				2EDA8E7C26D917C70089AC15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2EDA8E7D26D917C70089AC15 /* Build configuration list for PBXNativeTarget "bakoWorkflow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2EDA8E7E26D917C70089AC15 /* Debug */,
+				2EDA8E7F26D917C70089AC15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2EDA8E8026D917C70089AC15 /* Build configuration list for PBXNativeTarget "bakoWorkflowTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2EDA8E8126D917C70089AC15 /* Debug */,
+				2EDA8E8226D917C70089AC15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2EDA8E8326D917C70089AC15 /* Build configuration list for PBXNativeTarget "bakoWorkflowUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2EDA8E8426D917C70089AC15 /* Debug */,
+				2EDA8E8526D917C70089AC15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2EDA8E4B26D917C50089AC15 /* Project object */;
+}
