@@ -19,13 +19,13 @@ class ViewControllerTests: XCTestCase {
     }
 
     func testExample() throws {
-        // This is an example of a functional test case.
+        // This is an example of a function  al test case.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
     }
 
     func test_string() {
         let string = "test"
-        XCTAssertEqual(string, "test")
+        XCTAssertEqual(string, "test22244")
     }
 
     func test_bool() {
