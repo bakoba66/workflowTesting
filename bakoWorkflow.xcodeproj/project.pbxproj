@@ -15,6 +15,7 @@
 		2EDA8E6326D917C60089AC15 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2EDA8E6126D917C60089AC15 /* LaunchScreen.storyboard */; };
 		2EDA8E6E26D917C70089AC15 /* bakoWorkflowTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EDA8E6D26D917C70089AC15 /* bakoWorkflowTests.swift */; };
 		2EDA8E7926D917C70089AC15 /* bakoWorkflowUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EDA8E7826D917C70089AC15 /* bakoWorkflowUITests.swift */; };
+		2EDA8E8726D917ED0089AC15 /* ViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EDA8E8626D917ED0089AC15 /* ViewControllerTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		2EDA8E7426D917C70089AC15 /* bakoWorkflowUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = bakoWorkflowUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2EDA8E7826D917C70089AC15 /* bakoWorkflowUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bakoWorkflowUITests.swift; sourceTree = "<group>"; };
 		2EDA8E7A26D917C70089AC15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2EDA8E8626D917ED0089AC15 /* ViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +117,7 @@
 			children = (
 				2EDA8E6D26D917C70089AC15 /* bakoWorkflowTests.swift */,
 				2EDA8E6F26D917C70089AC15 /* Info.plist */,
+				2EDA8E8626D917ED0089AC15 /* ViewControllerTests.swift */,
 			);
 			path = bakoWorkflowTests;
 			sourceTree = "<group>";
@@ -268,6 +271,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2EDA8E8726D917ED0089AC15 /* ViewControllerTests.swift in Sources */,
 				2EDA8E6E26D917C70089AC15 /* bakoWorkflowTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
