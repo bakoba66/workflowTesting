@@ -6,7 +6,7 @@ on:
 
 jobs:
   run-ci-commands:
-    runs-on: ubuntu-latest
+    runs-on: macos-latest
     steps:
       - name: Git - Checkout
         uses: actions/checkout@v2
