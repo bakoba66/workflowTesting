@@ -17,7 +17,7 @@ jobs:
       - name: Test - Fastlane tests
         uses: sersoft-gmbh/xcodebuild-action@v1
         with:
-          project: MyApp.xcodeproj
-          scheme: MyApp
+          project: bakoworkflow.xcodeproj
+          scheme: bakoWorkflowTests
           destination: platform=iOS
           action: test
