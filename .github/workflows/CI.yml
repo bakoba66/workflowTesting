@@ -19,5 +19,5 @@ jobs:
         with:
           project: bakoworkflow.xcodeproj
           scheme: bakoWorkflowTests
-          destination: platform=iOS
+          destination: platform=iOS Simulator,OS=13.4.1,name=iPhone 12 Pro Max
           action: test
