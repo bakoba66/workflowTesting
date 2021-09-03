@@ -15,4 +15,9 @@ jobs:
       - name: Setup - Xcode
         run: sudo xcode-select -s /Applications/Xcode_12.3.app
       - name: Test - Fastlane tests
-        run: fastlane test
+        uses: sersoft-gmbh/xcodebuild-action@v1
+        with:
+          project: MyApp.xcodeproj
+          scheme: MyApp
+          destination: platform=iOS
+          action: test
