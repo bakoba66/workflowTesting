@@ -14,12 +14,5 @@ jobs:
           ref: ${{ github.ref }}
       - name: Setup - Xcode
         run: sudo xcode-select -s /Applications/Xcode_12.3.app
-      - name: Test - Fastlane tests
-        uses: sersoft-gmbh/xcodebuild-action@v1
-        with:
-          project: bakoworkflow.xcodeproj
-          scheme: bakoWorkflowTests
-          destination: "platform=iOS Simulator, id=dvtdevice-DVTiOSDeviceSimulatorPlaceholder-iphonesimulator=placeholder, name=Any iOS Simulator Device"
-          action: test
       - name: "xcode test again"
         run: xcodebuild test -scheme affirm-me-test -workspace affirm-me.xcworkspace -destination "platform=iOS Simulator,name=iPhone 11,OS=13.1"
