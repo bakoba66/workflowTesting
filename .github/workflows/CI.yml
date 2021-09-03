@@ -22,4 +22,4 @@ jobs:
           destination: "platform=iOS Simulator, id=dvtdevice-DVTiOSDeviceSimulatorPlaceholder-iphonesimulator=placeholder, name=Any iOS Simulator Device"
           action: test
      - name: "xcode test again"
-      run: xcodebuild test -scheme affirm-me-test -workspace affirm-me.xcworkspace -destination "platform=iOS Simulator,name=iPhone 11,OS=13.1"
+       run: xcodebuild test -scheme affirm-me-test -workspace affirm-me.xcworkspace -destination "platform=iOS Simulator,name=iPhone 11,OS=13.1"
