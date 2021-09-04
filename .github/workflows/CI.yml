@@ -14,5 +14,7 @@ jobs:
           ref: ${{ github.ref }}
       - name: Setup - Xcode
         run: sudo xcode-select -s /Applications/Xcode_12.3.app
-      - name: "xcode test again"
-        run: xcodebuild test -scheme bakoWorkflowTests -project bakoworkflow.xcodeproj -destination "platform=iOS Simulator,id=C86B6F7C-B560-41C0-ADD1-83CD36DF1678,OS=14.3"
+      - name: xcode test again
+        run: xcodebuild test -scheme bakoWorkflowTests -project bakoworkflow.xcodeproj -destination "platform=iOS Simulator,id=C86B6F7C-B560-41C0-ADD1-83CD36DF1678,OS=14.3" -enableCodeCoverage YES
+      - name: upload test coverage report
+        uses: codecov/codecov-action@v1.2.1
