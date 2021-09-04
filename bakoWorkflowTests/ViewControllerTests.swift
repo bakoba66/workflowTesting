@@ -5,7 +5,7 @@
 //  Created by bako on 27/08/2021.
 //
 
-import XCTest
+import XCTest 
 @testable import bakoWorkflow
 
 class ViewControllerTests: XCTestCase {
@@ -25,7 +25,7 @@ class ViewControllerTests: XCTestCase {
 
     func test_string() {
         let string = "test"
-        XCTAssertEqual(string, "test333")
+        XCTAssertEqual(string, "test")
     }
 
     func test_bool() {

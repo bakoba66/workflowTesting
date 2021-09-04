@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testsuites name='bakoWorkflowTests.xctest' tests='4' failures='0'>
+  <testsuite name='bakoWorkflowTests.ViewControllerTests' tests='3' failures='0'>
+    <testcase classname='bakoWorkflowTests.ViewControllerTests' name='test_bool' time='0.003'/>
+    <testcase classname='bakoWorkflowTests.ViewControllerTests' name='test_string' time='0.001'/>
+    <testcase classname='bakoWorkflowTests.ViewControllerTests' name='testExample' time='0.001'/>
+  </testsuite>
+  <testsuite name='bakoWorkflowTests.bakoWorkflowTests' tests='1' failures='0'>
+    <testcase classname='bakoWorkflowTests.bakoWorkflowTests' name='testExample' time='0.001'/>
+  </testsuite>
+</testsuites>

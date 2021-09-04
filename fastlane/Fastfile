@@ -1,0 +1,12 @@
+default_platform(:ios)
+
+platform :ios do
+  desc "running the tests"
+  lane :test do
+	run_tests(
+           project: "bakoworkflow.xcodeproj",
+           scheme: "bakoWorkflowTests",
+           code_coverage: true
+)
+  end
+end
